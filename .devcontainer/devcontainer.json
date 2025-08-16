@@ -17,13 +17,17 @@
 	// Configure tool-specific properties.
 	// "customizations": {},
 	"customizations": {
-	    "vscode": {
-			"extensions": [
-				"ms-python.python",
-				"ms-vscode-remote.remote-containers",
-				"-GitHub.copilot",
-				"-GitHub.copilot-chat"
-			],
+		"vscode": {
+			"extensions": 
+				[
+					"ms-python.python",
+					"ms-vscode-remote.remote-containers"
+				],
+			"unwanted":[
+					"GitHub.copilot",
+					"GitHub.copilot-chat",
+					"GitHub.copilot-labs"
+				],
 			"settings": {
 				"editor.quickSuggestions": {"strings": false,
 					"comments": false,
@@ -33,8 +37,8 @@
 				"editor.suggestOnTriggerCharacters": false,
 				"github.copilot.enable": {"*":false},
 				"github.copilot.chat.enable": false,
+				"github.copilot.inlineSuggest.enable": false,
 				"editor.parameterHints.enabled": true,
-				//"github.copilot.inlineSuggest.enable": false,
 				"chat.commandCenter.enabled": false,
 				"workbench.panel.chat.enabled": false,
 				"workbench.chat.openOnStart": false,
@@ -50,7 +54,8 @@
 				"extensions.autoUpdate": false,
 				"extensions.ignoreRecommendations": true,
 				"update.mode": "none",
-				"telemetry.telemetryLevel": "off"
+				"telemetry.telemetryLevel": "off",
+				"settingsSync.keybindingsPerPlatform": false
 			}
 		}
 	}
