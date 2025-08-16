@@ -20,7 +20,9 @@
 	    "vscode": {
 			"extensions": [
 				"ms-python.python",
-				"ms-vscode-remote.remote-containers"
+				"ms-vscode-remote.remote-containers",
+				"-GitHub.copilot",
+				"-GitHub.copilot-chat"
 			],
 			"settings": {
 				"editor.quickSuggestions": {"strings": false,
@@ -30,9 +32,9 @@
 				"editor.inlineSuggest.enabled": false,
 				"editor.suggestOnTriggerCharacters": false,
 				"github.copilot.enable": {"*":false},
+				"github.copilot.chat.enable": false,
 				"editor.parameterHints.enabled": true,
 				//"github.copilot.inlineSuggest.enable": false,
-				"github.copilot.chat.enable": false,
 				"chat.commandCenter.enabled": false,
 				"workbench.panel.chat.enabled": false,
 				"workbench.chat.openOnStart": false,
