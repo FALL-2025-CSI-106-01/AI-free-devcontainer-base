@@ -55,8 +55,9 @@
 				"extensions.ignoreRecommendations": true,
 				"update.mode": "none",
 				"telemetry.telemetryLevel": "off",
-				"settingsSync.keybindingsPerPlatform": false
-				"copilot.showinstatusbar": false
+				"settingsSync.keybindingsPerPlatform": false,
+				// "copilot.showinstatusbar": false //fake AI nonsense
+				"workbench.statusbar.visible": false
 			}
 		}
 	}
