@@ -1,5 +1,5 @@
-# dev-container-base
-This is to make the base dev container for an Introduction to Computing with python course. 
+# AI-free-devcontainer-base
+This is to make the base dev container for an Introduction to Computing with Python (3.11) course. 
 
 It turns of the majority of the auto complete functions in VS code. 
 
