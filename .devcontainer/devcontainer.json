@@ -29,12 +29,12 @@
 					"GitHub.copilot-labs"
 				],
 			"settings": {
-				"editor.quickSuggestions": {"strings": false,
+				"editor.quickSuggestions": {"strings": true,
 					"comments": false,
-					"other": false
+					"other": true
 				},
 				"editor.inlineSuggest.enabled": false,
-				"editor.suggestOnTriggerCharacters": false,
+				"editor.suggestOnTriggerCharacters": true,
 				"github.copilot.enable": {"*":false},
 				"github.copilot.chat.enable": false,
 				"github.copilot.inlineSuggest.enable": false,
